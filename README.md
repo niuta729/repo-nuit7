@@ -1,1 +1,95 @@
-# repo-nuit7
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мое Портфолио</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffeef8;
+            color: #333;
+        }
+        header {
+            background: #ff69b4;
+            color: white;
+            padding: 1.5rem;
+            text-align: center;
+        }
+        section {
+            padding: 20px;
+            margin: 10px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #ff1493;
+        }
+        .project {
+            background: #ffe4f1;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ff1493;
+            border-radius: 5px;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #ff1493;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        a {
+            color: #ff1493;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Добро пожаловать в мое портфолио!</h1>
+    <p>Веб-разработчик | Дизайнер | Создатель</p>
+</header>
+
+<section>
+    <h2>Обо мне</h2>
+    <p>Меня зовут Золотарева Анна, и я  ученица ИТЭУПУ техникума .</p>
+    <p>Я увлечен созданием пользовательских интерфейсов и оптимизацией пользовательского опыта. Мой подход ориентирован на результат, и я всегда открыто воспринимаю новые идеи и подходы.</p>
+</section>
+
+<section>
+    <h2>Мои навыки</h2>
+    <ul>
+        <li>HTML, CSS, C# </li>
+        <li>Access, MySQL</li>
+        <li>Дизайн: (базовые знания) Adobe Photoshop, Figma</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Мои проекты</h2>
+    <div class="project">
+        <h3>Проект 1  интернет-магазин пример </h3>
+        <p>Созданный на C#, этот проект создан как пример для начала онлайн магазина. Использует Accesc для хранения данных.</p>
+        <a href="https://niuta729.github.io/magazin/">Ссылка на проект</a>
+    </div>
+    <div class="project">
+        <h3>Проект 2 Маршрутизация </h3>
+        <p>Сделан на основании маршрутов, также как пример, к сожалению полу рабочий </p>
+        <a href="https://preview--journey-route-mapper.lovable.app/">Ссылка на проект</a>
+    </div>
+  
+</section>
+
+<footer>
+    
+</footer>
+
+</body>
+</html>
